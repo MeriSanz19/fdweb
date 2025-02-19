@@ -1,0 +1,31 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c2eec4;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2 {color: rgb(0, 0, 0);
+     font-weight: bold;}
+h3 {
+    font-weight: bolder; color: #000000;
+}
+p { 
+    font-size: 3.5rem ;
+    text-align: center;
+    color: rgb(0, 0, 0) ;
+}
+.emphasis{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 3.5rem;
+}
+ul {
+    text-align: center;
+    color: #000000;
+}
+button { 
+    align-items: center;
+}
