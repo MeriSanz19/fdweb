@@ -1,7 +1,7 @@
 /* Estilos básicos */
 body {
     font-family: Arial, sans-serif;
-    background-color: #c2eec4;
+    background-color: #a4aafa;
     margin: 0;
     padding: 0;
 }
@@ -20,12 +20,34 @@ p {
 .emphasis{
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 3.5rem;
+    font-size: 5rem;
 }
 ul {
     text-align: center;
-    color: #000000;
+    font-size: 2.6rem;
 }
-button { 
-    align-items: center;
+button {
+    display:block;
+    width: 200px;
+    height: 50px;
+    margin: 20px auto;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: #4c43c5;
+    color: white;
+    border: none;
+    cursor:  url('assets/icons/cervecita.svg'), auto; /* Usar imagen de corazón como cursor */
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #2f31aa;
+}
+img {
+    display: block;
+    margin: 0 auto;
 }
