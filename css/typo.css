@@ -1,0 +1,54 @@
+@keyframes fadeIn {
+    0% {opacity:0
+    }
+    100% { opacity: 1; }
+}
+
+@keyframes colorCycle {
+        0% {
+            color: rgb(255, 72, 0);
+        }
+        33% {
+            color: rgb(0, 89, 255);
+        }
+        66% {
+            color: rgb(6, 255, 213);
+        }
+        100% {
+            color: rgb(212, 0, 255);
+        }
+
+}
+body {
+    font-family: "Monoton", sans-serif;
+    margin: 0;
+    background-color:rgb(18, 22, 83) ;
+    padding: 0;
+    text-align:center;
+    font-size: 5rem;
+    display: block;
+    color: brown;
+}
+i {
+    display: block;
+}
+h1 {
+    font-size: 5rem;
+    animation: colorCycle 5s linear infinite; 
+}
+h2 {
+    font-family: 'OCR-A';
+    font-size: 3.5rem;
+    animation: fadeIn 2s ease-in-out 1 forwards;
+    color: antiquewhite;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+@font-face {
+    font-family: 'OCR-A';
+    src: url('../assets/fonts/OCRA.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    }
