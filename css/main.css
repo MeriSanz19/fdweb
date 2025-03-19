@@ -38,7 +38,6 @@ button {
     background-color: #4c43c5;
     color: white;
     border: none;
-    cursor:  url('assets/icons/cervecita.svg'), auto; /* Usar imagen de corazón como cursor */
 }
 
 button a {
