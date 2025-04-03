@@ -19,13 +19,14 @@
         .contenedor {
             display: flex;
             flex-wrap: wrap; /* permitir que las columnas bajen */
-            max-width: 1200px;
+            max-width: 90%;
             margin: auto; /* centrar el contenedor en pantallas grandes */
             padding: 1rem;
         }
         .columna {
             flex: 1 1 33%; /* tres columnas, cada una ~33% (1/3) del ancho */
             padding: 1rem;
+            font-size: clamp(12px,2vw,16px);
         }
         .columna:nth-child(even) {
             background: #e6e6e6;
@@ -37,7 +38,7 @@
     }
     .columna {
 		flex: 1 1 50%; /* dos columnas de ~50% cada una */
-        background-color: aqua;
+        background-color: rgb(255, 255, 255);
 	}
 }
 
@@ -54,14 +55,41 @@
 }
         </style>
 	</head>
-	<body>
-		<header>
+	<body>       
+		<header>       
 			<h1>Mi Sitio Web</h1>
 		</header>
 		<main class="contenedor">
-			<article class="columna">Contenido 1</article>
-			<article class="columna">Contenido 2</article>
-			<article class="columna">Contenido 3</article>
+			<article class="columna">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum iaculis odio ut faucibus.
+                 Cras consequat elementum orci. Duis a nisl sapien. Nunc vitae velit eget est elementum dignissim.
+                  Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam lacinia metus neque, ut imperdiet lacus eleifend in. 
+                  Nunc posuere ex ipsum, id volutpat nibh accumsan a. Nulla vel fringilla orci, in porta quam. Integer tristique ante id efficitur varius.
+                   Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;  </article>
+			<article class="columna">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum iaculis odio ut faucibus.
+                Cras consequat elementum orci. Duis a nisl sapien. Nunc vitae velit eget est elementum dignissim.
+                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam lacinia metus neque, ut imperdiet lacus eleifend in. 
+                Nunc posuere ex ipsum, id volutpat nibh accumsan a. Nulla vel fringilla orci, in porta quam. Integer tristique ante id efficitur varius.
+                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</article>
+			<article class="columna">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum iaculis odio ut faucibus.
+                Cras consequat elementum orci. Duis a nisl sapien. Nunc vitae velit eget est elementum dignissim.
+                 Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam lacinia metus neque, ut imperdiet lacus eleifend in. 
+                 Nunc posuere ex ipsum, id volutpat nibh accumsan a. Nulla vel fringilla orci, in porta quam. Integer tristique ante id efficitur varius.
+                  Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</article>
+            <article class="columna">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum iaculis odio ut faucibus.
+                Cras consequat elementum orci. Duis a nisl sapien. Nunc vitae velit eget est elementum dignissim.
+                 Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam lacinia metus neque, ut imperdiet lacus eleifend in. 
+                 Nunc posuere ex ipsum, id volutpat nibh accumsan a. Nulla vel fringilla orci, in porta quam. Integer tristique ante id efficitur varius.
+                  Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</article>
+			<article class="columna">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum iaculis odio ut faucibus.
+                Cras consequat elementum orci. Duis a nisl sapien. Nunc vitae velit eget est elementum dignissim.
+                 Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam lacinia metus neque, ut imperdiet lacus eleifend in. 
+                 Nunc posuere ex ipsum, id volutpat nibh accumsan a. Nulla vel fringilla orci, in porta quam. Integer tristique ante id efficitur varius.
+                  Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</article>
+			<article class="columna">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum iaculis odio ut faucibus.
+                Cras consequat elementum orci. Duis a nisl sapien. Nunc vitae velit eget est elementum dignissim.
+                 Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam lacinia metus neque, ut imperdiet lacus eleifend in. 
+                 Nunc posuere ex ipsum, id volutpat nibh accumsan a. Nulla vel fringilla orci, in porta quam. Integer tristique ante id efficitur varius.
+                  Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</article>
 		</main>
 		<footer>&copy; 2025 Mi Sitio Web</footer>
 	</body>
