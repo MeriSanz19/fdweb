@@ -8,6 +8,7 @@
         body{ 
             background-color: rgb(250, 255, 203);
             font-family: helvetica;
+
         }
         h1{
             color: rgb(16, 85, 28);
@@ -16,11 +17,51 @@
             text-align: center;
             font-weight:800;
         }
+        iframe{ 
+            display:block;
+            margin: auto
+        }
+        ul{
+            list-style-type: none; 
+            text-align: center;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        button{
+            background-color: rgb(16, 85, 28);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 1.3rem;
+        }
+        button:hover{
+            background-color: rgb(12, 42, 5);
+           font-size: 1.5rem;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
     </style>
 </head>
 <body>
     <h1>THE COOL WEBSITES</h1>
-    <h2><iframe src="https://dgrees.studio/" style= "width: 80vw; height: 30vw; display: flex; "></iframe></h2>
-    <h2><iframe src="https://www.triplettapizza.com/" style= "width: 80vw; height: 30vw; flex:center;"></iframe></h2>
+    <ul>
+        <button><a href="#awwwards">AWWWARDS</a></button>
+        <button><a href="#webby">WEBBY AWARDS</a></button>
+        <button><a href="#fwa">FWA</a></button>
+        <button><a href="#css">CSS DESIGN AWARDS</a></button>
+    </ul>
+    <h2 id="awwwards"><iframe src="https://www.triplettapizza.com/" style= "width: 80vw; height: 30vw; flex:center;"></iframe></h2>
+    <h2 id="webby"><iframe src="https://dgrees.studio/" style= "width: 80vw; height: 30vw; display: flex; "></iframe></h2>
+    <h2 id="fwa"><iframe src="https://www.urbanjava.studio/" style= "width: 80vw; height: 30vw;"></iframe></h2>
+    <h2 id="css"><iframe src="https://www.oddcommon.com/" style= "width: 80vw; height: 30vw;"></iframe></h2>
 </body>
 </html>
