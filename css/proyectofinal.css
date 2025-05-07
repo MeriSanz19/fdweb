@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "VLNLBrokken";
+    src: url('../assets/fonts/VLNLBrokken.woff2') format('woff2');
+}
+h1 {
+    font-family: "VLNLBrokken";
+    text-align: center;
+    font-size: clamp(2rem, 13vw, 200px ); /* Ajusta el tamaño dinámicamente */
+}
+.container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    top: -20%;
+}
+
+h2 {
+    font-family: "helvetica neue", sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 2rem;
+    display: inline-block; /* Necesario para animar cada letra */
+    overflow: hidden;
+}
+
+h2 span {
+    display: inline-block;
+    opacity: 0; /* Comienza invisible */
+    animation: fadeInLetter 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeInLetter {
+    0% {
+        opacity: 0;
+        transform: translateY(20px); /* Comienza desplazado hacia abajo */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* Termina en su posición original */
+    }
+}
