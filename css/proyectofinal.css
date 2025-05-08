@@ -8,17 +8,15 @@ h1 {
     font-size: clamp(2rem, 13vw, 200px ); /* Ajusta el tamaño dinámicamente */
 }
 .container {
-    display: flex;
+    display: inline-block;
     justify-content: center; /* Centra horizontalmente */
-    height: 100vh; /* Ocupa toda la altura de la ventana */
-    top: -20%;
+    margin-top: -5vw;
 }
-
 h2 {
     font-family: "helvetica neue", sans-serif;
     font-weight: lighter;
     text-align: center;
-    font-size: 2rem;
+    font-size: clamp(0.1rem, 2rem, 200px ); /* Ajusta el tamaño dinámicamente */
     display: inline-block; /* Necesario para animar cada letra */
     overflow: hidden;
 }
@@ -38,4 +36,20 @@ h2 span {
         opacity: 1;
         transform: translateY(0); /* Termina en su posición original */
     }
+}
+table {
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+    justify-content: center;
+
+}
+td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+img {
+    max-width: 100px;
+    height: auto;
 }
