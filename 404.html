@@ -4,12 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MERISANZ PORTFOLIO</title>
-    <link rel="stylesheet" href="css/proyectofinal.css" />
     <link rel="icon" type="image/png" href="./assets/icons/favicons/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="./assets/icons/favicons/favicon.svg" />
     <link rel="shortcut icon" href="./assets/icons/favicons/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/favicons/apple-touch-icon.png" />
     <link rel="manifest" href="./manifest.json" />
+    <style>
+    body#error {
+        background-color:  rgb(255, 245, 232);
+    }
+    h1#error {
+        font-family: "VLNLBrokken";
+        text-align: center;
+        font-size: clamp(2rem, 10vw, 200px ); 
+        margin-bottom: 0;
+        margin-top: 17rem;
+    }
+    div.container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+        height: 100vh; /* Ocupa toda la altura de la pantalla */                        
+        width: 100vw; /* Ocupa todo el ancho de la pantalla */
+        text-align: center;
+        margin-top: 0;
+        position: fixed;
+        z-index: 1;
+    }
+    h2 {
+        font-family: "helvetica", sans-serif;
+        font-weight: bold;
+        font-size: clamp(0.1rem, 3vw, 100px);;
+        text-align: center;
+        overflow: hidden;
+        margin-top: 1rem;
+    }
+
+    h2 span {
+        text-align: center;
+        opacity: 0; /* Comienza invisible */
+        animation: fadeInLetter 0.5s ease-in-out forwards;
+        animation-delay: 5s;
+    }
+    @font-face {
+        font-family: "VLNLBrokken";
+        src: url('../assets/fonts/VLNLBrokken.woff2') format('woff2');
+    }
+    @keyframes fadeInLetter {
+        0% {
+            opacity: 0;
+            transform: translateY(20px); /* Comienza desplazado hacia abajo */
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0); /* Termina en su posición original */
+        }
+    }
+    .gif { 
+        display: flex;
+        justify-content: center ;
+        width: 95%;
+        height: auto;
+        margin-top: -40rem;
+    }
+    </style>
 </head>
 <body id="error">
 <div class="center-container">

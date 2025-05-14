@@ -19,13 +19,7 @@ h1 {
     margin-bottom: 0;
     margin-top: 8rem;
 }
-h1#error {
-    font-family: "VLNLBrokken";
-    text-align: center;
-    font-size: clamp(2rem, 10vw, 200px ); 
-    margin-bottom: 0;
-    margin-top: 17rem;
-}
+
 div.container {
     display: flex;
     flex-direction: column;
@@ -165,9 +159,6 @@ body#photos {
 body#aboutme {
     background-color:  rgb(255, 245, 232);
 }
-body#error {
-    background-color:  rgb(255, 245, 232);
-}
 footer {
     background: #000000;
     color: rgb(255, 245, 232);
@@ -261,10 +252,4 @@ section {
     margin-bottom: 0;
     height: auto;
 }
-.gif { 
-    display: flex;
-    justify-content: center ;
-    width: 95%;
-    height: auto;
-    margin-top: -40rem;
-}
+
