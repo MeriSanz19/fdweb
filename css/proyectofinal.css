@@ -124,19 +124,19 @@ img:hover{
 /* Animación de cambio de fondo */
 @keyframes changeBackground {
     0%, 20% {
-        background-image: url('../assets/images/horizontal1.JPG'); /* Primera imagen */
+        background-image: url('https://ik.imagekit.io/ocodhookk/horizontal1.JPG?updatedAt=1747209240383'); 
     }
     20%, 40% {
-        background-image: url('../assets/images/horizontal2.JPG'); /* Segunda imagen */
+        background-image: url('https://ik.imagekit.io/ocodhookk/horizontal2.JPG?updatedAt=1747209240439'); 
     }
     40%, 60% {
-        background-image: url('../assets/images/horizontal3.JPG'); /* Tercera imagen */
+        background-image: url('https://ik.imagekit.io/ocodhookk/horizontal3.JPG?updatedAt=1747209240535'); 
     }
     60%, 80% {
-        background-image: url('../assets/images/horizontal4.JPG'); /* Tercera imagen */
-    }    
+        background-image: url('https://ik.imagekit.io/ocodhookk/horizontal4.JPG?updatedAt=1747209240591'); 
+    }
     80%, 100% {
-        background-image: url('../assets/images/horizontal5.JPG'); /* Tercera imagen */
+        background-image: url('https://ik.imagekit.io/ocodhookk/horizontal5.JPG?updatedAt=1747209240667'); 
     }
 
 }

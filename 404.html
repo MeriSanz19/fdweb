@@ -10,6 +10,10 @@
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/favicons/apple-touch-icon.png" />
     <link rel="manifest" href="./manifest.json" />
     <style>
+         @font-face {
+        font-family: "VLNLBrokken";
+        src: url('../assets/fonts/VLNLBrokken.woff2') format('woff2');
+         }
     body#error {
         background-color:  rgb(255, 245, 232);
     }
@@ -46,10 +50,6 @@
         opacity: 0; /* Comienza invisible */
         animation: fadeInLetter 0.5s ease-in-out forwards;
         animation-delay: 5s;
-    }
-    @font-face {
-        font-family: "VLNLBrokken";
-        src: url('../assets/fonts/VLNLBrokken.woff2') format('woff2');
     }
     @keyframes fadeInLetter {
         0% {
