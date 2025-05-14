@@ -263,8 +263,8 @@ section {
 }
 .gif { 
     display: flex;
-    justify-content: center right;
-    width: 90%;
+    justify-content: center ;
+    width: 95%;
     height: auto;
-    margin-top: -35rem;
+    margin-top: -40rem;
 }
